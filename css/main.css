@@ -1,0 +1,267 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+body{
+    background-color: white;
+    
+}
+.home{
+    width: 90%;
+    height: auto;
+    justify-content: center;
+    
+}
+.home .nav ul{
+    list-style-type: none;
+}
+
+.home .nav .bar{
+    font-size: 30px;
+    margin: 20px;
+    color: white;
+    display: none;
+}
+
+.home .nav ul li{
+    float: right;
+    margin: 10px;
+    font-size: 20px;
+    padding-right: 10px;
+}
+.logo{
+    float: left;
+    padding-left: 10px;
+    font-size: 30px;
+    color: orange;
+}
+.jet{
+    color: rgb(215, 105, 14);
+}
+.item-top{
+    color: rgb(215, 105, 14);
+}
+.home .nav ul li a , .logo{
+    text-decoration: none;
+}
+/* End Navvvvvvvvvvvvvvvvvvvvvvvvvvvv */
+.head{
+    width: 100%;
+    height: 300px;
+    
+    justify-content: space-around;
+}
+.head img{
+    width: 100%;
+    height: 100%;
+}
+.choices{
+    display: flex;
+    margin-top: 50px;
+    justify-content: space-between;
+}
+    
+.choices img{
+        width: 15%;
+        height: 50px;
+}
+
+/* End Headdddddddddddddddd */
+.h3{
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-around;
+    color:rgb(215, 105, 14);
+    margin: 10px;
+}
+.h3 .content{
+    width: 30%;
+}
+/* End h33333333333333333333 */
+
+.parag{
+    display: flex;
+    justify-content: space-around;
+}
+
+.parag .text{
+    width: 30%;
+}
+/* End paragraphhhhhhhhhhhhhhhhh */
+
+
+.inside{
+    width: 30px;
+    border: 1px solid rgb(215, 105, 14);
+    width: auto;
+    background-color:rgb(215, 105, 14);
+    display:block;
+    margin-right: 270px;
+}
+
+/* End buttonnnnnnnnnnnnnnnnnnnnnnn */
+
+.inline{
+    display: flex;
+    margin: 10px;
+}
+.inline .recent{
+    width: 30%;
+    margin-top: 20px;
+}
+.inline .line{
+    width: 100%;
+    height: 10px;
+    background-color: gray;
+    margin: 25px;
+}
+
+/* End Recent */
+.works{
+    display: flex;
+    justify-content: space-between;
+}
+.works .img{
+    width: 24%;
+    height: 300px;
+    border: solid 1px white;
+}
+.works .img img{
+    width: 100%;
+    height: 100%;
+}
+div.works .img .date{
+    color: rgb(215, 105, 14);
+}
+
+/* End workssssssssssssssssssss */
+
+div.tail{
+    background-color: rgb(219, 173, 135);
+    width: 100%;
+    height: auto;
+}
+.tail .up-tail{
+    background-color: rgb(215, 105, 14);
+    width: 90%;
+    margin: auto;
+    border-right: 10px solid white;
+    border-left: 10px solid white;
+    padding-left: 15px;
+
+}
+.about{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 100px;
+    width: 90%;
+    
+    
+}
+.about .abouts{
+    margin-top: 10px;
+    width: 30%;
+}
+
+.end{
+    display: flex;
+    justify-content: space-between;
+    width: 90%;
+    height: 100%;
+}
+.end .conts{
+    margin-top: 20px;
+    width: 30%;
+}
+/* End websiteeeeeeeeeeeeeeeeeeeeee */
+div.sign{
+    position:fixed;
+    bottom:0;
+    left:0;
+    width:100%;
+    height: 70px;
+    background: linear-gradient(to top, rgba(20, 148, 190, 0.575) 30%, rgba(255, 255, 255, 0.404));
+}
+.sign .tic{
+    text-align: center;
+    margin: 5px;
+    font-size: 20px;
+    font-family: sans-serif;
+    font-size: 10px;
+    color: rgb(17, 20, 108);
+}
+.sign .tac{
+    font-family: 'Tangerine', serif;
+    font-size: 40px;
+    color: rgb(29, 6, 29);
+}
+.sign .toe{
+    font-family: 'Tangerine', serif;
+    font-size: 40px;
+}
+.click{
+    text-decoration: none;
+}
+
+@media(max-width:750px){
+    
+    .home .nav ul li{
+        width: 90%;
+        margin: 10px;
+        font-size: 20px;
+
+    }
+
+    .home .nav .bar{
+        margin: 10px;
+        display: block;
+        
+    }
+    .head{
+        width: 100%;
+    }
+    .choices{
+        display: flex;
+        flex-wrap: wrap;
+        margin-top: 250px;
+        justify-content: space-between;
+    }
+        
+    .choices img{
+            width: 15%;
+            height: 50px;
+    }
+    .logo{
+        width: 90%;
+        display: flex;
+        flex-wrap: wrap;
+        padding-left: 10px;
+        font-size: 30px;
+        
+    }
+    
+    .h3{
+        margin: 20px 0px;
+    }
+    .h3 .content{
+        width: 98%;
+    }
+    .inside{
+        width: 50px;
+    }
+    .works{
+        width: 100%;
+        
+    }
+    .works .img{
+        width: 90%;
+        margin: 10px 0px;
+    }
+    .works .img img{
+        width: 100%;
+        height: 100%;
+    }
+    div.works .img .date{
+        color: rgb(215, 105, 14);
+    }
+}
